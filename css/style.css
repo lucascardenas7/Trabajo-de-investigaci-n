@@ -8,6 +8,10 @@ h2{
     font-size: 20;
 }
 
+*{
+    background-color: rgb(174, 200, 223);
+}
+
 .preguntauno{
     text-align: center;
 }
