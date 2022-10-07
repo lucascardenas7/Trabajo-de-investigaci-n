@@ -110,13 +110,25 @@
     </div>
 
     <div>
-        <div class="formulario"> <h2>Con toda la investigación que generaron deben de generar un formulario que realice las siguientes funciones</h2></div>
+        <div class="preguntasformulario"> <h2>Con toda la investigación que generaron deben de generar un formulario que realice las siguientes funciones</h2></div>
         <ol>
             <li><p>¿Qué obtenga los datos del input?</p></li>
             <li><p>¿Qué verifique los datos que se ingresan en el input?</p></li>
             <li><p>¿Qué el formulario presente una calculo de sumatoria para validar ¿Qué no sos un robot”?.</p></li>
         </ol>
 
+        <div class="formulario">
+            <script src="script.js"></script>
+            <p style="text-align: start;">Punto 10:</p>
+            <p>Valor numero uno:</p>
+            <input type="text" value="Ingrese un numero aqui" onchange="sumar(this.value);" />
+            <p>Valor numero dos:</p>
+            <input type="text" onchange="sumar(this.value);" />
+            <p>El resultado es:
+                <span id="spTotal"></span>
+            </p>
+    
+        </div>
 
     </div>
 </body>
